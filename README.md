@@ -3,16 +3,63 @@ Aim: To study and implement Operators in C++.
 
 Apparatus: VS Code or Programiz online compiler
 
-Theory: -->Program-1: This program accepts an integer from the user and checks whether it is positive, negative, or zero using conditional statements.
+Theory: 
+1)C++ provides a wide range of operators used to perform operations on variables and data, such as arithmetic, relational, and logical operations.
+2)Arithmetic operators (+, -, *, /, %) are used to perform basic mathematical operations like addition, subtraction, multiplication, division, and modulus.
+3)Relational operators (>, <, >=, <=, ==, !=) are used to compare two values and return a boolean result (true or false).
+4)Logical operators (&&, ||, !) are used to combine multiple relational conditions and return a boolean output.
+5)Decision-making statements like if, else if, and else allow a program to take different paths based on certain conditions.
+6)The combination of operators and conditional statements enables the program to implement logic and make real-time decisions based on user input.
 
-->The user is prompted to enter a number. ->The program uses if, else if, and else statements to check: If the number is greater than 0, it prints "Number is POSITIVE." If the number is less than 0, it prints "Number is NEGATIVE." If the number is equal to 0, it prints "Number is ZERO."
+In this experiment:
+a)We check whether a number is positive, negative, or zero using relational and if-else conditions.
+b)We calculate the average of marks and assign a grade using arithmetic and relational operators along with nested if-else.
+c)We determine the position of a point (x, y) in a 2D plane using logical conditions and decision structures.
 
--->Program-2: This program accepts marks for five subjects, calculates the average, and assigns a grade based on the average score.
+These programs help understand how to:
+->Accept user input using cin
+->Display results using cout
+->Use appropriate data types (like int, float)
+->Preserve accuracy and structure in logical conditions
 
-->The program takes input for five subjects: DCLD, NT, EDC, SnS, and MTT. ->It calculates the average by adding all subject marks and dividing by 5. ->Based on the average, it assigns grades using if-else conditions as follows: O Grade: 90–100 A+ Grade: 80–89 A Grade: 70–79 B Grade: 60–69 C Grade: 50–59 FAIL: Below 50 ->If the calculated average is outside 0–100, it displays an error message to enter valid marks.
+Overall, this experiment provides foundational understanding of how logic flows in a C++ program using operators and conditional statements.
 
--->Program-3: This program identifies the position of a point (x, y) in a 2D Cartesian coordinate system based on its x and y coordinates.
+-->Program-1: 
+1)Takes an integer input from the user.
+2)Uses conditional statements (if, else if, else) to check:
+->If number > 0 → prints "Number is POSITIVE"
+->If number < 0 → prints "Number is NEGATIVE"
+->If number == 0 → prints "Number is ZERO"
+3)Demonstrates the use of relational and logical operators in decision-making.
 
-->The program takes two integer inputs: x-coordinate and y-coordinate. ->It then uses if-else conditions to determine the point's location: 1st Quadrant: x > 0 and y > 0. 2nd Quadrant: x < 0 and y > 0. 3rd Quadrant: x < 0 and y < 0. 4th Quadrant: x > 0 and y < 0. On X-axis: y = 0 and x ≠ 0. On Y-axis: x = 0 and y ≠ 0. At Origin: x = 0 and y = 0. ->The program prints the appropriate message indicating the point’s position.
+
+
+-->Program-2: 
+1)Takes marks input for 5 subjects: DCLD, NT, EDC, SnS, MTT
+2)Calculates average = (sum of all marks) / 5
+3)Assigns grades using if-else as per the average:
+90–100 → Grade O
+80–89 → Grade A+
+70–79 → Grade A
+60–69 → Grade B
+50–59 → Grade C
+<50 → FAIL
+
+4)If average is not in 0–100 range, shows error: "Enter valid marks"
+5)Demonstrates nested conditions and use of relational operators.
+
+-->Program-3:
+1)Takes two inputs: x and y coordinates
+2)Uses if-else to determine position:
+1st Quadrant: x > 0 & y > 0
+2nd Quadrant: x < 0 & y > 0
+3rd Quadrant: x < 0 & y < 0
+4th Quadrant: x > 0 & y < 0
+On X-axis: y = 0, x ≠ 0
+On Y-axis: x = 0, y ≠ 0
+Origin: x = 0 & y = 0
+
+4)Displays a message indicating the correct position
+5)Demonstrates logical AND (&&) and comparison operators.
 
 Conclusion: Hence, we used Logical Operators and Relational Operators in the above 3 codes and executed the decision-making statements to get an accurate output.
